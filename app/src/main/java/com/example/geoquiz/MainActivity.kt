@@ -218,15 +218,7 @@ fun GeoQuizApp() {
                         }
                     )
                     Spacer(modifier = Modifier.height(8.dp))
-                    Text(
-                        text = when {
-                            score == totalQuestions -> "Perfect! 🌟"
-                            score >= totalQuestions - 1 -> "Excellent! 👍"
-                            score >= totalQuestions / 2 -> "Good job! 🙂"
-                            else -> "Keep practicing! 💪"
-                        },
-                        fontSize = 16.sp
-                    )
+
                 }
             },
             confirmButton = {
