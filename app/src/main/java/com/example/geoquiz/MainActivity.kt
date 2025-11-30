@@ -184,7 +184,7 @@ fun GeoQuizApp() {
         }
     }
 
-    // Final Results Dialog (после ответа на последний)
+    // Final Results Dialog (после ответа на последний вопрос)
     if (showResult) {
         AlertDialog(
             onDismissRequest = { /* Prevent dismiss */ },
