@@ -56,7 +56,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun GeoQuizApp() {
-    // Состояние приложения
+    // Состояние приложения.
     var currentIndex by remember { mutableStateOf(0) }
     var userAnswers by remember { mutableStateOf<List<Boolean?>>(emptyList()) }
     var showResult by remember { mutableStateOf(false) }
